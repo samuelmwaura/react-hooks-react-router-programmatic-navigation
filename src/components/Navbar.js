@@ -15,7 +15,7 @@ function Navbar({ setIsLoggedIn }) {
 
   function handleLogout() {
     setIsLoggedIn(false);
-    history.push("/login");
+    history.push("/login"); // This will redirect the user to the login page  without them triggering any event.
   }
 
   return (
